@@ -5,7 +5,7 @@ on:
     branches:
       - master  # or whichever branch you want to trigger deployment
 
-jobs:
+jobs: 
   deploy:
     name: Deploy to EC2 via SSH
     runs-on: ubuntu-latest
